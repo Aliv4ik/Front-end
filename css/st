@@ -1,0 +1,305 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.link-nav {
+  text-decoration: none;
+  color: #e8a5b6;
+  }
+.link-card {
+    color: #1e65f1;
+    text-decoration: none;
+      }
+  .link-social{
+    text-decoration: none;
+    color: #e8a5b6;
+      }
+  .link-social:hover{
+        color:#AC9FBB;
+        font-size: 110%;
+      }
+  .button:hover > .link-card {
+    color: #c8eaec;
+  }
+
+a:hover {
+   color: #c8eaec; /* Цвет ссылки при наведении на нее курсора мыши */
+       }
+  .nav {
+  min-height: 40px;
+  background-color: #000;
+  text-align: center;
+  padding: 3px;
+  font-weight: 600;
+}
+.menu {
+  display: flex;
+  flex-flow: row;
+  color: #fff;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-around;
+}
+.menu li {
+  padding: 10px;
+}
+.name {
+  display: block;
+  margin-right: auto;
+}
+header{
+  padding-top: 40px;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/background-image.jpg");
+  background-size: cover;
+  text-align: center;
+}
+header img {
+  border-radius: 50%;
+  border: 2px solid #000;
+  width: 170px;
+  height: 170px;
+  transition: all .5s;
+}
+header img:hover{
+transform: scale(1.1) rotate(360deg);
+}
+.tag {
+  background-color: #fff;
+  display: table;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px
+  }
+.content {
+  display: flex;
+  flex-flow: row;
+  margin: auto;
+  justify-content: space-around;
+}
+.card {
+  width: 500px;
+  margin: 10px;
+  padding: 50px;
+  text-align: center;
+  border-bottom: 3px solid grey;
+  border-radius: 5px;
+}
+
+.tag-list{
+  display: flex;
+  padding: 3px;
+  flex-flow: row;
+  list-style-type: none;
+  }
+.tag-pink{
+  background-color: #f5b8c7;
+  color: #fff
+}
+.tag-green{
+  background-color: #7eed72;
+  color: #fff
+}
+.tag-yellow{
+  background-color: #e9ed72;
+  color: #000;
+}
+.transition{
+  transition: border 0.3s ease-out, margin 0.3s ease-out, background-color 1s ease;
+}
+.button {
+  background-color: #c8eaec;
+  text-align: center;
+  border: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 15px;
+    }
+.button:hover{
+  border: 15px;
+  margin: 15px;
+  background-color:#1e65f1;
+    }
+footer{
+  text-align: center;
+  padding: 20px;
+}
+@media (max-width): 786px) {
+
+}
+.content{
+  display:flex;
+  justify-content: space-around;
+  align-items: ;
+  flex-flow: row;
+}
+.pill {
+  position: absolute;
+  left: -5%;
+  top: 6.9vh;
+  right: auto;
+  bottom: auto;
+  width: 560px;
+  height: 200px;
+  border-radius: 200px;
+  background-image: url("https://uploads-ssl.webflow.com/63178084f36ff55746aaad86/63499c32300241775911cde6_gayatri-malhotra-cL7KRmpELqE-unsplash.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  -webkit-transform: rotate(-9deg);
+  -ms-transform: rotate(-9deg);
+  transform: rotate(-9deg);
+}
+
+.pill.purple {
+  left: auto;
+  top: 8.2vh;
+  right: 29%;
+  bottom: auto;
+  background-image: url("https://uploads-ssl.webflow.com/63178084f36ff55746aaad86/63499d4fa76c4534137af403_sub-buzz-6120-1558464585-1.png");
+  -webkit-transform: rotate(-31deg);
+  -ms-transform: rotate(-31deg);
+  transform: rotate(-31deg);
+}
+
+.pill.pink {
+  left: -9%;
+  top: auto;
+  right: auto;
+  bottom: 18.5vh;
+  background-image: url("https://uploads-ssl.webflow.com/63178084f36ff55746aaad86/63499e133fe373a708dbc3c3_gayatri-malhotra-It2pKYswmgg-unsplash.png");
+  -webkit-transform: rotate(29deg);
+  -ms-transform: rotate(29deg);
+  transform: rotate(29deg);
+}
+
+.pill.green {
+  left: auto;
+  top: 22.2vh;
+  right: -4%;
+  bottom: auto;
+  background-image: url("https://uploads-ssl.webflow.com/63178084f36ff55746aaad86/63499e2ad9ed53ca77ce661b_sub-buzz-2897-1656161085-15.png");
+  background-size: cover;
+  -webkit-transform: rotate(26deg);
+  -ms-transform: rotate(26deg);
+  transform: rotate(26deg);
+}
+
+.pill.red {
+  left: 21%;
+  top: auto;
+  right: auto;
+  bottom: 9vh;
+  background-image: url("https://uploads-ssl.webflow.com/63178084f36ff55746aaad86/63499e3e2269c684c3d60a9e_sub-buzz-7793-1558465926-1.png");
+  -webkit-transform: rotate(-29deg);
+  -ms-transform: rotate(-29deg);
+  transform: rotate(-29deg);
+}
+
+.pill.blue {
+  left: 5%;
+  top: 19.4vh;
+  background-image: url("https://uploads-ssl.webflow.com/63178084f36ff55746aaad86/6349a8be300241a9e412a54a_image%2022.png");
+  -webkit-transform: rotate(-49deg);
+  -ms-transform: rotate(-49deg);
+  transform: rotate(-49deg);
+}
+
+.pill.yellow2 {
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 19.2vh;
+  background-image: url("https://uploads-ssl.webflow.com/63178084f36ff55746aaad86/6349a8f4b7be8fb8682c8996_sub-buzz-3149-1656162416-10.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  -webkit-transform: rotate(43deg);
+  -ms-transform: rotate(43deg);
+  transform: rotate(43deg);
+}
+
+.pill.blue2 {
+  left: auto;
+  top: auto;
+  right: 13%;
+  bottom: 19%;
+  background-image: url("https://uploads-ssl.webflow.com/63178084f36ff55746aaad86/635002bc6ba5af38f3f31b22_pexels-brett-sayles-12619526%20(1).png");
+  background-position: 50% 0%;
+  background-size: cover;
+}
+
+.pill-wrapper {
+  position: relative;
+  display: block;
+  overflow: visible;
+  width: 100%;
+  height: 100vh;
+  background-color: #faf5ee;
+  mix-blend-mode: screen;
+}
+
+
+.body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+.canvas {
+  display: block;
+  vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+} /* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.js-count-particles {
+  font-size: 1.1em;
+}
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+.body {
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 1500px;
